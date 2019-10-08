@@ -1,0 +1,214 @@
+/* Elements */
+
+body {
+	background-color: #2d2d2d;
+	color: black;
+	font-family: sans-serif;
+	line-height: 0;
+    font-size: 1em;
+  	max-width:6em;
+    padding: 0;
+}
+h1{
+	position: absolute;
+    left: 47%;
+    top: 25%;
+    font-size: 6em;
+    color: orange;
+}
+.container{
+	position:relative;
+	width: 60em;
+	height: 60em;
+	max-width: 60em;
+	display:block;
+}
+.triangle{
+	height: 0em;
+    width: 0em;
+    left: 37.5%;
+    top: 19%;
+    border-left: 1.5em solid transparent;
+    border-right: 1.5em solid transparent;
+    border-bottom: 3.5em solid #1d711d;
+    font-size: 1.5em;
+    z-index: -2;
+    position: absolute;
+}
+	.triangle3{
+		height: 0em;
+	    width: 0em;
+	    left: 37.5%;
+	    top: 19%;
+	    border-left: 1.5em solid transparent;
+	    border-right: 1.5em solid transparent;
+	    border-bottom: 5em solid green;
+	    font-size: 1.5em;
+	    z-index: -1;
+	    position: absolute;
+	}
+	.triangle1{
+	 	height: 0em;
+	    width: 0em;
+	    left: 41.6%;
+    	top: 18.5%;
+	    transform: rotate(75deg);
+	    border-left: 2em solid transparent;
+	    border-right: 2em solid transparent;
+	    border-bottom: 4em solid green;
+	    font-size: .25em;
+	    z-index: -1;
+	    position: absolute;
+	}
+	.triangle2{
+	 	height: 0em;
+	    width: 0em;
+	    left: 42%;
+	    top: 19.1%;
+	    transform: rotate(-44deg);
+	    border-left: 2em solid transparent;
+	    border-right: 2em solid transparent;
+	    border-bottom: 3em solid green;
+	    font-size: .25em;
+	    z-index: -1;
+	    position: absolute;
+	}
+.circle {
+	width: 6em;
+    height: 7em;
+    background-color: #ff9800;
+    border-radius: 50%;
+	box-shadow: 6px 21px 61px;
+    position: absolute;
+    left: 36%;
+    top: 25%;
+    z-index: 1;
+	}
+		.circle4{
+		width: 4.5em;
+	    height: 7em;
+	    background-color: #ff9800;
+	    border-radius: 50%;
+	    box-shadow: 6px 21px 153px;
+	    position: absolute;
+	    left: 37%;
+	    top: 25%;
+	    z-index: 1;
+	}
+	.circle5{
+	    width: 3em;
+	    height: 7em;
+	    background-color: #ff9800;
+	    border-radius: 50%;
+	    box-shadow: 6px 21px 153px;
+	    position: absolute;
+	    left: 38.5%;
+	    top: 25%;
+	    z-index: 1;
+	}
+
+	.circle6{
+		width: 2em;
+	    height: 6.5em;
+	    background-color: #ff9800;
+	    border-radius: 50%;
+	    box-shadow: 6px 21px 153px;
+	    position: absolute;
+	    left: 39.5%;
+	    top: 25.5%;
+	    z-index: 1;
+	}
+
+.circle2{
+	width: 6em;
+    height: 7em;
+    background-color: #ff9800;
+    border-radius: 50%;
+    position: absolute;
+    left: 31%;
+    top: 25%;
+    z-index: -1;
+}
+	.circle7{
+		width: 5em;
+	    height: 7em;
+	    background-color: #ff9800;
+	    border-radius: 50%;
+	    position: absolute;
+	    left: 32.5%;
+	    top: 25%;
+	    box-shadow: 6px 21px 162px;
+	    z-index: -1;
+    }
+    .circle8{
+		width: 5em;
+	    height: 7em;
+	    background-color: #ff9800;
+	    border-radius: 50%;
+	    position: absolute;
+	    left: 34.5%;
+	    top: 25%;
+	    box-shadow: 6px 21px 162px;
+	    z-index: -1;
+    }
+
+.circle3 {
+	width: 6em;
+    height: 7em;
+    background-color: #ff9800;
+    border-radius: 50%;
+    position: absolute;
+    left: 40%;
+    top: 25%;
+    z-index: -1;
+}
+	.circle9{
+		width: 6em;
+	    height: 7em;
+	    background-color: #ff9800;
+	    border-radius: 50%;
+	    position: absolute;
+	    left: 39%;
+	    top: 25%;
+	    box-shadow: 6px 21px 162px;
+	    z-index: -1;
+    }
+    .circle10{
+		width: 6em;
+	    height: 7em;
+	    background-color: #ff9800;
+	    border-radius: 50%;
+	    position: absolute;
+	    left: 37.5%;
+	    top: 25%;
+	    box-shadow: 6px 21px 162px;
+	    z-index: -1;
+	}
+
+.shape1{
+
+    height: 0em;
+    width: 0em;
+    left: 37.5%;
+    top: 20%;
+    border-left: 23.5em solid transparent;
+    border-right: 1.5em solid transparent;
+    border-bottom: 7em solid #1d711d;
+    font-size: 1.5em;
+    z-index: -2;
+    position: absolute;
+}
+	.shape2{
+
+		height: 0em;
+	    width: 0em;
+	    left: 37.5%;
+	    top: 20%;
+	    border-left: 1.5em solid transparent;
+	    border-right: 17.5em solid transparent;
+	    border-bottom: 6em solid #ff980075;
+	    font-size: 1.5em;
+	    z-index: -3;
+	    position: absolute;
+}
+
